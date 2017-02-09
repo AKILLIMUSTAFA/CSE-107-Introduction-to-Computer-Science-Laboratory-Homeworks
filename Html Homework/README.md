@@ -1,2 +1,5 @@
-# CSE-107-Introduction-to-Computer-Science-Laboratory-Homeworks
-2014 GTU CSE 107 Introduction to Computer Science Laboratory Homeworks
+# SYNOPSIS
+
+HTML Website Homework.
+
+This HTML Website is about Phone sell.
