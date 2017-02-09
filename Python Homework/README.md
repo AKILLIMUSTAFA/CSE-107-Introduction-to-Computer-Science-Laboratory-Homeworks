@@ -1,2 +1,5 @@
-# CSE-107-Introduction-to-Computer-Science-Laboratory-Homeworks
-2014 GTU CSE 107 Introduction to Computer Science Laboratory Homeworks
+# SYNOPSIS
+
+URLs Finder in Given URL Python Homework.
+
+This Python homework take a URL from the user and write links in the given links into txt file.
