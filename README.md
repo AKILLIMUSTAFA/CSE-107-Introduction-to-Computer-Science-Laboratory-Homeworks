@@ -1,2 +1,3 @@
-# CSE-107-Introduction-to-Computer-Science-Laboratory-Homeworks
-2014 GTU CSE 107 Introduction to Computer Science Laboratory Homeworks
+# SYNOPSIS
+
+Gebze Technical University CSE 107 Introduction to Computer Science Laboratory, 2014 Homeworks.
