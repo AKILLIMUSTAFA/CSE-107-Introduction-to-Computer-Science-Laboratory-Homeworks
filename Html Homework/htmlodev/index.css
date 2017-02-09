@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+
+<style>
+
+#Telefonlar {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#Telefonlar td, #Telefonlar th {
+    font-size: 1em;
+    border: 1px solid #98bf21;
+    padding: 3px 7px 2px 7px;
+}
+
+#Telefonlar th {
+    font-size: 1.1em;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background-color: #A7C942;
+    color: #ffffff;
+}
+
+#Telefonlar tr.alt td {
+    color: #000000;
+    background-color: #EAF2D3;
+}
+
+
+
+
+
+
+
+
+.aw-slider
+{
+  width:1366px;
+  height:786px;
+  overflow: hidden;
+  position: relative;
+}
+
+.resim1, .resim2, .resim3, .resim4, .resim5
+{
+  position: absolute;
+  width:1366px;
+  height:786px;
+}
+ 
+.aw-slider > div > a > span{
+  position:absolute;
+  display:table;
+  background-color:black;
+  color:white;
+  right:0;
+  bottom:0;
+  padding:5px 10px;
+}
+
+.resim1{left: 0;}
+.resim2{left: 1366px;}
+.resim3{left: 2732px;}
+.resim4{left: 4098px;}
+.resim5{left: 5464px;}
+
+.aw-slider > div
+{
+  width: 5464px;
+  height: 786px;
+  left:0px;
+  position: absolute;
+  -webkit-animation-duration: 20s;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-name: gecisler;
+  -moz-animation-duration: 20s;
+  -moz-animation-iteration-count:infinite;
+  -moz-animation-name: gecisler;
+  -ms-animation-duration: 20s;
+  -ms-animation-iteration-count:infinite;
+  -ms-animation-name: gecisler;
+  animation-duration: 20s;
+  animation-iteration-count:infinite;
+  animation-name: gecisler;
+}
+
+.aw-slider > div  img{
+  opacity: 0.9;
+  filter: alpha(opacity=95);
+}
+ 
+.aw-slider > div  img:hover{
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+ 
+.aw-slider > div:hover{
+-webkit-animation-play-state:paused;
+}
+
+@-webkit-keyframes gecisler
+{
+  0% {left:0px;}
+  10% {left:0px;}
+  20% {left:-1366px;}
+  30% {left:-1366px;}
+  40% {left:-2732px;}
+  50% {left:-2732px;}
+  60% {left:-4098px;}
+  70% {left:-4098px;}
+  80% {left:-5464px;}
+  90% {left:-5464px;}
+}
+@-moz-keyframes gecisler
+{
+  0% {left:0px;}
+  10% {left:0px;}
+  20% {left:-1366px;}
+  30% {left:-1366px;}
+  40% {left:-2732px;}
+  50% {left:-2732px;}
+  60% {left:-4098px;}
+  70% {left:-4098px;}
+  80% {left:-5464px;}
+  90% {left:-5464px;}
+}
+@-ms-keyframes gecisler
+{
+  0% {left:0px;}
+  10% {left:0px;}
+  20% {left:-1366px;}
+  30% {left:-1366px;}
+  40% {left:-2732px;}
+  50% {left:-2732px;}
+  60% {left:-4098px;}
+  70% {left:-4098px;}
+  80% {left:-5464px;}
+  90% {left:-5464px;}
+}
+@keyframes gecisler
+{
+  0% {left:0px;}
+  10% {left:0px;}
+  20% {left:-1366px;}
+  30% {left:-1366px;}
+  40% {left:-2732px;}
+  50% {left:-2732px;}
+  60% {left:-4098px;}
+  70% {left:-4098px;}
+  80% {left:-5464px;}
+  90% {left:-5464px;}
+}
+
+
+br {
+
+
+}
+
+p {
+
+
+font-family: "Times New Roman";
+font-size: 40px;
+
+}
+
+p1 {
+
+font-family: "Times New Roman";
+font-size: 25px;
+
+}
+p2 {
+
+text-indent: 100px;
+word-spacing: 50px;
+
+}
+
+p3 {
+
+font-family: "Times New Roman";
+font-size: 15px;
+
+}
+
+p4 {
+
+font-family: "Times New Roman";
+font-size: 25px;
+
+}
+
+p6 {
+
+font-family: "Times New Roman";
+font-size: 50px;
+margin-left: 200px;
+color: purple;
+text-decoration: underline;
+}
+
+
+p8 {
+
+font-family: "Times New Roman";
+font-size: 12px;
+margin-left: 20px;
+}
+
+
+p9 {
+
+font-family: "Times New Roman";
+font-size: 15px;
+text-decoration: underline;
+color: red;
+
+}
+
+
+p7 {
+   
+  text-align:center;
+  
+}
+
+
+p10 {
+   
+font-family: "Times New Roman";
+font-size: 17px;
+  
+}
+
+
+table, td, th {
+    border: 1px solid purple;
+}
+
+th {
+    background-color: purple;
+    color: white;
+}
+
+body {
+    background-color: #d0f0f6;
+}
+
+
+div.container {
+    width: 100%;
+    margin: 5px;
+    border: 1px solid gray;
+    line-height: 110%;
+}
+
+
+div.header, div.footer {
+    padding: 0.5em;
+    color: black;
+    background-color: #3F96C9;
+   
+}
+
+h1.header {
+    padding: 0;
+    margin: 20;
+    text-align:center;
+    color: purple;
+    font-size: 70px; 
+}
+
+div.left {
+    float: left;
+    width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+div.content 
+{
+    margin-left: 190px;
+    border-left: 1px solid gray;
+    padding: 1em;
+}
+
+
+ul {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+a {
+    float: left;
+    width: 9em;
+    text-decoration: none;
+    color: white;
+    background-color: purple;
+    padding: 0.2em 0.6em;
+    border-right: 1px solid white;
+}
+
+
+
+a:hover {
+    background-color: fuchsia;
+}
+
+
+li {
+    display: inline;
+}
+</style>
+</head>
+</html>

@@ -1,0 +1,53 @@
+<link rel="stylesheet" type="text/css" href="../htmlodev/index.css" /> </link>
+
+<body> 
+
+<p4><a href="../htmlodev/index.html">Geri Dön</a></p4>
+
+<p6> YAZILIM GÜNCELLEME NASIL YAPILIR? </p6>
+
+
+<div style="text-align:center"> 
+  <button onclick="playPause()">Oynat/Duraklat</button> 
+  <button onclick="makeBig()">Büyük</button>
+  <button onclick="makeSmall()">Küçük</button>
+  <br> 
+  <video id="video1" width="1366" height="786" autoplay>
+    <source src="../htmlodev/yazilim.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+</div> 
+
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+    if (myVideo.paused) 
+        myVideo.play(); 
+    else 
+        myVideo.pause(); 
+} 
+
+function makeBig() { 
+    myVideo.width = 1920 ; 
+} 
+
+function makeSmall() { 
+    myVideo.width = 720; 
+} 
+</script> 
+
+<br><br><p4><a href="../htmlodev/hafta.html">Haftanýn Ürünleri</a></p4>
+
+<div class="aw-slider">
+<div>
+<a class="resim1"><img src="../htmlodev/resimler/telefon/iPhone.jpg">
+<a class="resim2"><img src="../htmlodev/resimler/telefon/g3.jpg">
+<a class="resim3"><img src="../htmlodev/resimler/telefon/S5.jpg">
+<a class="resim4"><img src="../htmlodev/resimler/telefon/z2.jpg">
+<a class="resim5"><img src="../htmlodev/resimler/telefon/lumia520.png">
+</div>
+</div>
+</br></br>
+
+</body> 
